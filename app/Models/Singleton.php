@@ -12,7 +12,7 @@ class Singleton
 
     private static $instance = null;
 
-    function __construct() {
+    private function __construct() {
         $this->count = 0;
     }
 
